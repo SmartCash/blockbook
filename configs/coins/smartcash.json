@@ -22,7 +22,7 @@
     "package_name": "backend-smartcash",
     "package_revision": "satoshilabs-1",
     "system_user": "smartcash",
-    "version": "2.0.1",
+    "version": "2.1.0",
     "binary_url": "https://github.com/SmartCash/Core-Smart/releases/download/v2.1.0/smartcash-2.1.0-x86_64-linux-gnu.tar.gz",
     "verification_type": "sha256",
     "verification_source": "1fd4176c8bf26f6e270c8ca0010031937a23f917d15a8afaefc272e5e4d19e45",
@@ -37,8 +37,8 @@
     "service_additional_params_template": "",
     "protect_memory": true,
     "mainnet": true,
-    "server_config_file": "smartcash.conf",
-    "client_config_file": "smartcash_client.conf",
+    "server_config_file": "bitcoin_like.conf",
+    "client_config_file": "bitcoin_like_client.conf",
     "additional_params": {
       "deprecatedrpc": "estimatefee"
     }
