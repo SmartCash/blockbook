@@ -44,6 +44,7 @@ import (
 	"github.com/trezor/blockbook/bchain/coins/qtum"
 	"github.com/trezor/blockbook/bchain/coins/ravencoin"
 	"github.com/trezor/blockbook/bchain/coins/ritocoin"
+        "github.com/trezor/blockbook/bchain/coins/smartcash"
 	"github.com/trezor/blockbook/bchain/coins/snowgem"
 	"github.com/trezor/blockbook/bchain/coins/trezarcoin"
 	"github.com/trezor/blockbook/bchain/coins/unobtanium"
@@ -118,6 +119,7 @@ func init() {
 	BlockChainFactories["CPUchain"] = cpuchain.NewCPUchainRPC
 	BlockChainFactories["Unobtanium"] = unobtanium.NewUnobtaniumRPC
 	BlockChainFactories["DeepOnion"] = deeponion.NewDeepOnionRPC
+        BlockChainFactories["SmartCash"] = smartcash.NewSmartCashRPC
 	BlockChainFactories["SnowGem"] = snowgem.NewSnowGemRPC
 	BlockChainFactories["Bitcore"] = bitcore.NewBitcoreRPC
 	BlockChainFactories["Omotenashicoin"] = omotenashicoin.NewOmotenashiCoinRPC
