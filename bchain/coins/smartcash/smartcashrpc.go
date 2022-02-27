@@ -1,4 +1,4 @@
-package SmartCash
+package smartcash
 
 import (
 	"encoding/json"
