@@ -10,7 +10,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/trezor/blockbook/bchain"
+	"github.com/SmartCash/blockbook/bchain"
 	"github.com/trezor/blockbook/db"
 )
 

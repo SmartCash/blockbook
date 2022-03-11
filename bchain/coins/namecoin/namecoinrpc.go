@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 
 	"github.com/golang/glog"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/bchain/coins/btc"
+	"github.com/SmartCash/blockbook/bchain"
+	"github.com/SmartCash/blockbook/bchain/coins/btc"
 )
 
 // NamecoinRPC is an interface to JSON-RPC namecoin service.

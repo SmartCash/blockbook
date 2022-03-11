@@ -17,8 +17,8 @@ import (
 	vlq "github.com/bsm/go-vlq"
 	"github.com/juju/errors"
 	"github.com/martinboehm/btcutil/chaincfg"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/bchain/coins/btc"
+	"github.com/SmartCash/blockbook/bchain"
+	"github.com/SmartCash/blockbook/bchain/coins/btc"
 	"github.com/trezor/blockbook/common"
 	"github.com/trezor/blockbook/tests/dbtestdata"
 )

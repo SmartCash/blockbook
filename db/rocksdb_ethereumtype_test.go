@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	"github.com/juju/errors"
-	"github.com/trezor/blockbook/bchain/coins/eth"
+	"github.com/SmartCash/blockbook/bchain/coins/eth"
 	"github.com/trezor/blockbook/tests/dbtestdata"
 )
 

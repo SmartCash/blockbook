@@ -9,7 +9,7 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/juju/errors"
-	"github.com/trezor/blockbook/bchain"
+	"github.com/SmartCash/blockbook/bchain"
 	"github.com/trezor/blockbook/db"
 )
 

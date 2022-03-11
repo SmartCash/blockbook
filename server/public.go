@@ -20,7 +20,7 @@ import (
 
 	"github.com/golang/glog"
 	"github.com/trezor/blockbook/api"
-	"github.com/trezor/blockbook/bchain"
+	"github.com/SmartCash/blockbook/bchain"
 	"github.com/trezor/blockbook/common"
 	"github.com/trezor/blockbook/db"
 )

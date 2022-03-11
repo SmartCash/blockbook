@@ -5,7 +5,7 @@ import (
 	"math/big"
 
 	"github.com/martinboehm/btcutil/chaincfg"
-	"github.com/trezor/blockbook/bchain"
+	"github.com/SmartCash/blockbook/bchain"
 	"github.com/trezor/blockbook/common"
 )
 

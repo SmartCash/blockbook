@@ -17,8 +17,8 @@ import (
 	"time"
 
 	"github.com/martinboehm/btcutil/chaincfg"
-	"github.com/trezor/blockbook/bchain"
-	"github.com/trezor/blockbook/bchain/coins"
+	"github.com/SmartCash/blockbook/bchain"
+	"github.com/SmartCash/blockbook/bchain/coins"
 	build "github.com/trezor/blockbook/build/tools"
 	"github.com/trezor/blockbook/tests/rpc"
 	"github.com/trezor/blockbook/tests/sync"
