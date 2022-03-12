@@ -5,7 +5,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/SmartCash/blockbook/bchain"
 	"github.com/SmartCash/blockbook/bchain/coins/eth"
-	"github.com/trezor/blockbook/common"
+	"github.com/SmartCash/blockbook/common"
 )
 
 // TxCache is handle to TxCacheServer

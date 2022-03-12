@@ -21,7 +21,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/SmartCash/blockbook/bchain"
 	"github.com/SmartCash/blockbook/bchain/coins/btc"
-	"github.com/trezor/blockbook/common"
+	"github.com/SmartCash/blockbook/common"
 )
 
 // voteBitYes defines the vote bit set when a given block validates the previous

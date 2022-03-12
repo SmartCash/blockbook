@@ -52,7 +52,7 @@ import (
 	"github.com/SmartCash/blockbook/bchain/coins/viacoin"
 	"github.com/SmartCash/blockbook/bchain/coins/vipstarcoin"
 	"github.com/SmartCash/blockbook/bchain/coins/zec"
-	"github.com/trezor/blockbook/common"
+	"github.com/SmartCash/blockbook/common"
 )
 
 type blockChainFactory func(config json.RawMessage, pushHandler func(bchain.NotificationType)) (bchain.BlockChain, error)

@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"github.com/SmartCash/blockbook/bchain"
-	"github.com/trezor/blockbook/tests/dbtestdata"
+	"github.com/SmartCash/blockbook/tests/dbtestdata"
 )
 
 func TestErc20_erc20GetTransfersFromLog(t *testing.T) {

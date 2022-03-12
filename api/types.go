@@ -9,8 +9,8 @@ import (
 
 	"github.com/SmartCash/blockbook/bchain"
 	"github.com/SmartCash/blockbook/bchain/coins/eth"
-	"github.com/trezor/blockbook/common"
-	"github.com/trezor/blockbook/db"
+	"github.com/SmartCash/blockbook/common"
+	"github.com/SmartCash/blockbook/db"
 )
 
 const maxUint32 = ^uint32(0)

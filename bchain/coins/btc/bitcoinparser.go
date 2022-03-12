@@ -6,7 +6,7 @@ import (
 
 	"github.com/martinboehm/btcutil/chaincfg"
 	"github.com/SmartCash/blockbook/bchain"
-	"github.com/trezor/blockbook/common"
+	"github.com/SmartCash/blockbook/common"
 )
 
 // BitcoinParser handle

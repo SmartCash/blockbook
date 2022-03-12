@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/SmartCash/blockbook/bchain"
-	"github.com/trezor/blockbook/db"
+	"github.com/SmartCash/blockbook/db"
 )
 
 func testConnectBlocks(t *testing.T, h *TestHandler) {

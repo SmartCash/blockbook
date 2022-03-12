@@ -16,8 +16,8 @@ import (
 	"github.com/martinboehm/btcutil/chaincfg"
 	"github.com/SmartCash/blockbook/bchain"
 	"github.com/SmartCash/blockbook/bchain/coins/btc"
-	"github.com/trezor/blockbook/common"
-	"github.com/trezor/blockbook/db"
+	"github.com/SmartCash/blockbook/common"
+	"github.com/SmartCash/blockbook/db"
 )
 
 func TestMain(m *testing.M) {

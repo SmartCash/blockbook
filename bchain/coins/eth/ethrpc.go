@@ -18,7 +18,7 @@ import (
 	"github.com/golang/glog"
 	"github.com/juju/errors"
 	"github.com/SmartCash/blockbook/bchain"
-	"github.com/trezor/blockbook/common"
+	"github.com/SmartCash/blockbook/common"
 )
 
 // EthereumNet type specifies the type of ethereum network

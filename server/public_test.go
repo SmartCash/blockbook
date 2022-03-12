@@ -21,9 +21,9 @@ import (
 	"github.com/martinboehm/golang-socketio/transport"
 	"github.com/SmartCash/blockbook/bchain"
 	"github.com/SmartCash/blockbook/bchain/coins/btc"
-	"github.com/trezor/blockbook/common"
-	"github.com/trezor/blockbook/db"
-	"github.com/trezor/blockbook/tests/dbtestdata"
+	"github.com/SmartCash/blockbook/common"
+	"github.com/SmartCash/blockbook/db"
+	"github.com/SmartCash/blockbook/tests/dbtestdata"
 )
 
 func TestMain(m *testing.M) {

@@ -12,7 +12,7 @@ import (
 	"github.com/martinboehm/btcutil/hdkeychain"
 	"github.com/SmartCash/blockbook/bchain"
 	"github.com/SmartCash/blockbook/bchain/coins/btc"
-	"github.com/trezor/blockbook/common"
+	"github.com/SmartCash/blockbook/common"
 )
 
 var (

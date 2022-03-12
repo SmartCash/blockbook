@@ -10,7 +10,7 @@ import (
 	"github.com/golang/glog"
 	"github.com/juju/errors"
 	"github.com/SmartCash/blockbook/bchain"
-	"github.com/trezor/blockbook/db"
+	"github.com/SmartCash/blockbook/db"
 )
 
 const defaultAddressesGap = 20

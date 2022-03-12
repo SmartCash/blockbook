@@ -19,9 +19,9 @@ import (
 	"github.com/martinboehm/btcutil/chaincfg"
 	"github.com/SmartCash/blockbook/bchain"
 	"github.com/SmartCash/blockbook/bchain/coins"
-	build "github.com/trezor/blockbook/build/tools"
-	"github.com/trezor/blockbook/tests/rpc"
-	"github.com/trezor/blockbook/tests/sync"
+	build "github.com/SmartCash/blockbook/build/tools"
+	"github.com/SmartCash/blockbook/tests/rpc"
+	"github.com/SmartCash/blockbook/tests/sync"
 )
 
 type TestFunc func(t *testing.T, coin string, chain bchain.BlockChain, mempool bchain.Mempool, testConfig json.RawMessage)

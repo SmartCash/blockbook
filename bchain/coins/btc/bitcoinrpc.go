@@ -17,7 +17,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/martinboehm/btcd/wire"
 	"github.com/SmartCash/blockbook/bchain"
-	"github.com/trezor/blockbook/common"
+	"github.com/SmartCash/blockbook/common"
 )
 
 // BitcoinRPC is an interface to JSON-RPC bitcoind service.

@@ -11,8 +11,8 @@ import (
 	"testing"
 
 	"github.com/SmartCash/blockbook/bchain"
-	"github.com/trezor/blockbook/common"
-	"github.com/trezor/blockbook/db"
+	"github.com/SmartCash/blockbook/common"
+	"github.com/SmartCash/blockbook/db"
 )
 
 var testMap = map[string]func(t *testing.T, th *TestHandler){

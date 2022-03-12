@@ -9,7 +9,7 @@ import (
 
 	"github.com/juju/errors"
 	"github.com/SmartCash/blockbook/bchain/coins/eth"
-	"github.com/trezor/blockbook/tests/dbtestdata"
+	"github.com/SmartCash/blockbook/tests/dbtestdata"
 )
 
 type testEthereumParser struct {

@@ -19,8 +19,8 @@ import (
 	"github.com/martinboehm/btcutil/chaincfg"
 	"github.com/SmartCash/blockbook/bchain"
 	"github.com/SmartCash/blockbook/bchain/coins/btc"
-	"github.com/trezor/blockbook/common"
-	"github.com/trezor/blockbook/tests/dbtestdata"
+	"github.com/SmartCash/blockbook/common"
+	"github.com/SmartCash/blockbook/tests/dbtestdata"
 )
 
 // simplified explanation of signed varint packing, used in many index data structures

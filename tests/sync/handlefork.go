@@ -11,7 +11,7 @@ import (
 	"testing"
 
 	"github.com/SmartCash/blockbook/bchain"
-	"github.com/trezor/blockbook/db"
+	"github.com/SmartCash/blockbook/db"
 )
 
 func testHandleFork(t *testing.T, h *TestHandler) {

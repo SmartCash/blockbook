@@ -17,8 +17,8 @@ import (
 	"github.com/juju/errors"
 	"github.com/SmartCash/blockbook/bchain"
 	"github.com/SmartCash/blockbook/bchain/coins/eth"
-	"github.com/trezor/blockbook/common"
-	"github.com/trezor/blockbook/db"
+	"github.com/SmartCash/blockbook/common"
+	"github.com/SmartCash/blockbook/db"
 )
 
 // Worker is handle to api worker

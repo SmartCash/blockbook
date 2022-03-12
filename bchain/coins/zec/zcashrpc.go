@@ -7,7 +7,7 @@ import (
 	"github.com/juju/errors"
 	"github.com/SmartCash/blockbook/bchain"
 	"github.com/SmartCash/blockbook/bchain/coins/btc"
-	"github.com/trezor/blockbook/common"
+	"github.com/SmartCash/blockbook/common"
 )
 
 // ZCashRPC is an interface to JSON-RPC bitcoind service
