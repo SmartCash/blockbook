@@ -42,10 +42,10 @@ RUN strip /opt/rocksdb/ldb /opt/rocksdb/sst_dump && \
 
 # pre-load depencencies
 RUN \
-    cleanup() { rm -rf $GOPATH/src/github.com/trezor ; } && \
+    cleanup() { rm -rf $GOPATH/src/github.com/SmartCash ; } && \
     trap cleanup EXIT && \
-    mkdir -p $GOPATH/src/github.com/trezor && \
-    cd $GOPATH/src/github.com/trezor && \
+    mkdir -p $GOPATH/src/github.com/SmartCash && \
+    cd $GOPATH/src/github.com/SmartCash && \
     git clone https://github.com/SmartCash/blockbook.git && \
     cd blockbook && \
     go mod download
